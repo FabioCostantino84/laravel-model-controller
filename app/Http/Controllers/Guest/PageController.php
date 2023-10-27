@@ -10,6 +10,6 @@ class PageController extends Controller
 {
     public function index()
     {
-        return view('layouts.home', ['movies' => Movie::all()]);
+        return view('index', ['movies' => Movie::all()]);
     }
 }
